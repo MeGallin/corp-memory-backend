@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/MeGallin/corp-memory-backend/issues"
   },
-  "homepage": "https://github.com/MeGallin/corp-memory-backend#readme"
+  "homepage": "https://github.com/MeGallin/corp-memory-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.28.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.2"
+  }
 }
